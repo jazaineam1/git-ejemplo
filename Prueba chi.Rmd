@@ -28,7 +28,7 @@ tutorial_options(exercise.checker = gradethis::grade_learnr)
 ```
 
 
-# Prueba chi cuadrado
+# Prueba chi cuadrado $\chi^2$
 
 Es posible realizar hipótesis cuando se observan variables cualitativas y tener en cuenta cada una de sus categorías. Es decir, que sus valores representan categorías o grupos en una variable. Puede ser el caso de cuántas personas están a favor o en contra de un candidato político. En este caso tenemos dos categorías o grupos: los que van por el sí y los que van por el no. Puede tratarse de otra variable como nivel de
 satisfacción respecto al sabor de la comida. En este caso las personas contestan según tres categorías 1. Si satisfecho, 2. No satisfecho, y 3.
