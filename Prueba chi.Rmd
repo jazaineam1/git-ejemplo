@@ -1,0 +1,299 @@
+---
+title: "Prueba chi - cuadrado"
+author: "Antonino Zainea"
+output: 
+  html_document: 
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+    toc_collapsed: yes
+    theme: united
+editor_options: 
+  chunk_output_type: console
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+install.packages("gradethis-master.tar.xz",repos=NULL)
+#remotes::install_github("rstudio-education/gradethis")
+library(gradethis)
+knitr::opts_chunk$set(echo = FALSE)
+tutorial_options(exercise.eval = TRUE)
+frecu=c(18,51,70,32,9)
+tablas2=as.table(frecu)
+dimnames(tablas2)=list(Frecuencia=c("0","1","2","3","4"))
+chisq.test(tablas2)
+tutorial_options(exercise.checker = gradethis::grade_learnr) 
+```
+
+
+# Prueba chi cuadrado
+
+Es posible realizar hipótesis cuando se observan variables cualitativas y tener en cuenta cada una de sus categorías. Es decir, que sus valores representan categorías o grupos en una variable. Puede ser el caso de cuántas personas están a favor o en contra de un candidato político. En este caso tenemos dos categorías o grupos: los que van por el sí y los que van por el no. Puede tratarse de otra variable como nivel de
+satisfacción respecto al sabor de la comida. En este caso las personas contestan según tres categorías 1. Si satisfecho, 2. No satisfecho, y 3.
+Indeciso. Otras variable semejantes son el género o sexo de la persona, la
+marca de pasta dental preferida Una pregunta que puede surgir ante estas variables es, si las frecuencias o
+número de casos observados en cada categoría de la variable, a partir de una
+muestra, difieren de manera significativa respecto a una población esperada de
+respuestas o frecuencias.
+
+## Test de independencia
+
+La cuestión de independencia de los dos métodos de clasificación se puede investigar usando una prueba de hipótesis basada en la estadística ji cuadrada. Éstas son las hipótesis:
+
+$$H_0 : \text{Los dos métodos de clasificación son independientes}$$
+$$H_a : \text{Los dos métodos de clasificación son dependientes}$$
+
+Independencia: las observaciones de la muestra deben ser independientes unas de otras.
+
+- Muestreo aleatorio.
+- Tamaño de la muestra < 10% población.
+- Cada observación contribuye únicamente a uno de los niveles.
+- Tamaño: cada nivel debe tener al menos 5 eventos esperados (acorde a $H_0$) y el número de observaciones totales $(n) >30$. En caso de no cumplirse esta condición, el test pierde precisión.
+
+En el libro Bioestadística de Francisxa Ruis Díaz consideran que esta regla es muy estricta y rara vez se cumple en la práctica. Proponen unas condiciones más relajadas con las que no se pierde demasiada precisión: para ningún nivel el número de eventos esperados acorde a H0 es menor de 1 y como máximo un 20% de los niveles tiene menos de 5 eventos esperados.
+
+- En caso de no cumplirse esta condición o estar en el límite, se recurre a los test exactos o, si no es posible, a la simulación.
+- Aun cuando se cumplen las condiciones, son más precisos los test exactos y por lo tanto más recomendables.
+
+** Estadística de Prueba $\chi^2$ **
+
+$$\chi^2 = \sum_{i,j} \frac{(\text{observado}_{ij} - \text{esperado}_{ij})^2}{\text{esperado}_{ij}}$$
+
+El valor esperado de cada grupo se obtiene multiplicando las frecuencias marginales de la fila y columna en la que se encuentra la celda y dividiendo por el total de observaciones. Se suman las diferencias de todos los niveles. Elevar al cuadrado las diferencias permite hacerlas todas positivas y además magnificar aquellas más grandes.
+
+**Grados de libertad**
+
+La distribución chi-cuadrado tiene un único parámetro, los grados de libertad, que determina su forma, centro y dispersión.
+
+
+$$df = (niveles \ variable \ A - 1) \times (niveles \ variable \ B - 1) = (colunas-1) \times (filas-1)$$
+
+**P-valor**
+
+La distribución chi-cuadrado es siempre positiva, por lo que para calcular el p-valor solo se tiene en cuenta la cola superior.
+
+
+### Ejemplo
+
+_Un estudio intenta comparar si existe relación entre el estatus civil de las personas y la incidencia de la obesidad. Para ello se dispone de los siguientes datos. ¿Es significativa la relación entre ambas variables para un nivel de significancia del 5%?_
+
+| Obesidad | soltero | pareja | casado |
+|----------|---------|--------|--------|
+| Obeso    | 81      | 103    | 147    |
+| No_obeso | 359     | 326    | 277    |
+
+**Solución**
+
+Hipótesis
+
+$H_0:\text{ Obesidad y estado civil son independientes, el % de obesos no varía entre los diferentes niveles de la variable estado civil.}$
+
+$H_a: \text{Obesidad y estado civil son dependientes, el % de obesos sí varía entre los diferentes niveles de la variable estado civil.}$
+
+
+**Estadística de prueba**
+
+
+
+
+Calcular el número de eventos esperados en cada combinación de niveles siendo $H_o$ cierta
+
+Calcular el % de obesidad en toda la muestra: % obesidad = 331/1293=0.256
+
+Si $H_0$ es cierta, la cantidad de obesos en cada nivel de la variable estatus civil será igual al número marginal de ese nivel multiplicado por el % obesidad.
+
+
+Comprobar condiciones para $\chi^2-test$
+
+Independencia: las observaciones de la muestra deben ser independientes unas de otras.
+
+Muestreo aleatorio.
+- Tamaño de la muestra < 10% población.
+- Cada observación contribuye únicamente a uno de los niveles.
+- Tamaño: todas las posible combinaciones de niveles tienen al menos 5 eventos acorde a lo esperado según $H_0$.
+
+$$\chi^2 = \frac{(81-112.63)^2}{112.63} + ... + \frac{(277-315.45)^2}{315.45} = 30.829$$
+
+
+$$df = (2-1)x(3-1)= 2$$
+
+**P-valor **
+
+```{r ejercicio1,exercise=T}
+ pchisq(q= 31.68, df= 2, lower.tail = FALSE)
+```
+
+
+**En R**
+
+```{r ejericicio2,exercise=T,exercise.lines=7}
+fila1 <- c(81, 103, 147)
+fila2 <- c(359, 326, 277)
+tabla <- as.table(rbind(fila1, fila2))
+dimnames(tabla) = list(Peso = c("Obeso","No obeso"),
+                       Estado_civil = c("soltero","pareja","casado"))
+tabla
+res=chisq.test(tabla,correct = FALSE)
+
+```
+
+### Ejercicio
+
+Una agencia de publicidad desea saber si el género de los consumidores es
+independiente de sus preferencias de cuatro marcas de café. La respuesta
+determinará si se deben diseñar diferentes anuncios dirigidos a los hombres y
+otros diferentes para las mujeres. Realice la prueba con un nivel de
+significancía del 5%.
+
+
+|Marca|Hombres|Mujeres|
+|---|---|---|
+|A|18|32|
+|B|25|15|
+|C|15|10|
+|D|12|12|
+
+
+```{r exercise2, exercise = TRUE,exercise.completion=TRUE}
+
+```
+ 
+```{r exercise2-check,exercise.lines=7}
+fila1 <- c(18, 25, 15,12)
+fila2 <- c(32,15,10,12)
+tabla <- as.table(rbind(fila1, fila2))
+dimnames(tabla) = list(Sexo = c("Hombre","Mujer"),
+                       Marca = c("A","B","C","D"))
+
+grade_result(
+  pass_if(~identical(.result, chisq.test(tabla,correct = FALSE)))
+)
+```
+
+```{r quiz2, include=T}
+quiz(
+  question("¿Cuantós grados de libertad tiene la prueba? ",
+    answer("4"),
+    answer("8"),
+    answer("3", correct = TRUE),
+    answer("5"),submit_button = "Submit",try_again_button = "Try Again",allow_retry = TRUE
+  )
+  )
+```
+
+
+
+
+
+## Test de bondad de ajuste
+
+La prueba de ji cuadrada también se puede utilizar para decidir si una
+distribución de probabilidad, como la binomial, la de poisson o la normal, es la
+distribución apropiada.
+“La prueba ji cuadrada nos permite formular una pregunta para probar si
+existe una diferencia significativa entre una distribución observada y de
+frecuencia y una distribución teórica de frecuencias”.
+De esta manera, estamos en condiciones de determinar la bondad y
+ajuste de una distribución teórica; en otras palabras, podemos precisar hasta
+que punto encaja en la distribución de los datos que hemos observado. Así
+pues podemos determinar si debemos creer que los datos observados
+constituyen una muestra extraída de la supuesta distribución teórica.
+
+Procedimiento para elaborar una prueba de bondad y ajuste.
+1. Obtener la frecuencia observada (F.O), proveniente de una encuesta,
+estudio ó experimento.
+2. Determinar la frecuencia esperada (F.E),
+3. Establecer el nivel de significancia
+4. Determinar los grados de libertad. De la siguiente manera:
+g.l = k −1
+Donde k es el número de categorías
+
+La regla general para el calculo de los grados de libertad en una prueba de
+bondad y ajuste, consiste en primero “emplear la regla (K-1) y luego se resta
+un grado adicional de libertad para cada parámetro de población que tenga
+que ser estimado de los datos de la muestra.
+
+**Plantear las hipótesis**
+
+$H_0: \text{lo que se sostiene el supuesto valor del parámetro.}$
+$H_a: \text{lo que contradice al supuesto valor del parámetro.}$
+
+**Estadística de prueba**
+
+$$\chi^2 = \sum_{i} \frac{(\text{observado}_{i} - \text{esperado}_{i})^2}{\text{esperado}_{i}}$$
+
+**P-valor**
+
+La distribución chi-cuadrado es siempre positiva, por lo que para calcular el p-valor solo se tiene en cuenta la cola superior.
+
+### Ejemplo
+
+Un dado se lanzó 36 veces, haga una prueba con un nivel de
+significancía del 5%, para comprobar si el dado es legal o no. Los resultados
+obtenidos del ejercicio fueron los siguientes: 
+
+| Número  de  puntos | 1 | 2 | 3 | 4 | 5 | 6 |
+|--------------------|---|---|---|---|---|---|
+|Frecuencia  Observada. | 3 | 5 | 8 | 7 | 6 | 7 |
+
+
+**Estadística de prueba**
+
+$$\chi^2 = \frac{(3-6)^2}{6} + ... + \frac{(277-6)^2}{6} = 2.666$$
+
+**P-valor**
+
+```{r e3,exercise=T}
+pchisq(2.666,df=5,lower.tail = F)
+```
+
+**En R**
+
+```{r e4,exercise=T}
+dados=c(3,5,8,7,6,7)
+tablas=as.table(dados)
+dimnames(tablas)=list(Frecuencia=c("1","2","3","4","5","6"))
+chisq.test(tablas)
+```
+
+
+### Ejercicio
+
+Un inspector municipal investiga el cumplimiento de los propietarios de
+las casas con respecto a 4 normas especificadas en el código de vivienda,
+estableciéndose una probabilidad igual de que cumpla o no a cualquiera de las
+normas, por lo que el inspector desea conducir una prueba con un nivel de
+significancía del 5% para determinar si la muestra proviene de una distribución
+binomial. Una muestra aleatoria simple de 200 departamentos mostró los
+siguientes resultados observados fueron:
+
+```{r exercise1, exercise = TRUE,exercise.completion=TRUE}
+
+```
+ 
+```{r exercise1-check}
+
+grade_result(
+  pass_if(~identical(.result, chisq.test(tablas2)))
+)
+```
+
+```{r quiz1, include=T}
+quiz(
+  question("¿Cuantós grados de libertad tiene la prueba? ",
+    answer("1"),
+    answer("3"),
+    answer("4", correct = TRUE),
+    answer("5"),submit_button = "Submit",try_again_button = "Try Again",allow_retry = TRUE
+  )
+  )
+```
+
+> Tomado de:  Test estadísticos para variables cualitativas: test exacto de Fisher, chi-cuadrado de Pearson, McNemar y Q-Cochran by Joaquín Amat Rodrigo, available under a Attribution 4.0 International (CC BY 4.0) at [https://www.cienciadedatos.net/documentos/22.2_test_exacto_de_fisher_chi-cuadrado_de_pearson_mcnemar_qcochran.html](https://www.cienciadedatos.net/documentos/22.2_test_exacto_de_fisher_chi-cuadrado_de_pearson_mcnemar_qcochran.html)
+
+
+
+
+
