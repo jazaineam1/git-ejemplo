@@ -1,48 +1,70 @@
-# 🧪 Ejercicio 5: Colaboración con review y fork
+# 🧪 Ejercicio 5: Colaboración entre estudiantes usando forks
 
-## Parte 1. Revisión sobre el mismo Pull Request
+## Escenario
 
-1. Un compañero revisa tu Pull Request
-2. Debe dejar al menos un comentario
-3. Debes atender ese comentario con un cambio real
-4. Hacer nuevo commit
-5. Hacer `push` a la misma rama
+El profesor publica un repositorio base con instrucciones y archivos iniciales.
 
-## Qué debes notar
+Ana y Luis no deben modificar ese repositorio del profesor. En cambio, deben construir su propia solución como equipo.
 
-No necesitas crear otro PR. Si haces nuevos commits y `push` sobre la misma rama, el PR existente se actualiza automáticamente.
+## Objetivo
 
-## Parte 2. Colaboración con fork
+Practicar un flujo real de colaboración donde:
 
-### Escenario
+- ambos parten del repositorio del profesor
+- ambos hacen fork
+- eligen uno de sus forks como repositorio del equipo
+- trabajan desde workspaces separados
+- colaboran entre ellos mediante ramas y Pull Requests
 
-Dos personas, Ana y Luis, van a colaborar sobre el mismo repositorio principal, pero cada una desde su propio fork y su propio workspace.
+## Parte 1. Crear la base del equipo
 
-### Pasos
+1. Ana hace fork del repositorio del profesor
+2. Luis hace fork del repositorio del profesor
+3. El equipo decide usar el fork de Ana como repositorio compartido
+4. Ana agrega a Luis como colaborador en su repositorio
+5. Ambos verifican que pueden trabajar sobre `ana/repositorio`
 
-1. Ana hace `fork` del repositorio principal
-2. Luis hace `fork` del repositorio principal
-3. Cada uno abre su propio workspace sobre su fork
-4. Cada uno crea una rama distinta
-5. Cada uno hace un cambio diferente
-6. Cada uno hace commit y `push` a su fork
-7. Cada uno abre un Pull Request hacia el repositorio original
-8. Uno de los dos revisa el PR del otro y deja al menos un comentario
-9. El autor del PR hace un ajuste y actualiza su rama
+## Parte 2. Trabajar en ramas separadas
 
-### Comandos de referencia
+### Ana
+
+1. Crear rama:
 
 ```bash
-git switch -c feature/cambio-propio
-git add .
-git commit -m "Agrega cambio colaborativo"
-git push origin feature/cambio-propio
+git switch -c feature/estructura
 ```
 
-### Sincronización sugerida con el repositorio original
+2. Hacer un cambio
+3. Hacer commit
+4. Hacer push
+
+### Luis
+
+1. Crear rama:
 
 ```bash
-git remote add upstream https://github.com/ORGANIZACION/REPOSITORIO.git
+git switch -c feature/contenido
+```
+
+2. Hacer un cambio distinto
+3. Hacer commit
+4. Hacer push
+
+## Parte 3. Revisarse entre ellos
+
+1. Ana abre PR hacia `main` del repositorio del equipo
+2. Luis revisa el PR de Ana y deja al menos un comentario
+3. Ana corrige y actualiza el mismo PR
+4. Luis abre PR hacia `main`
+5. Ana revisa el PR de Luis y deja al menos un comentario
+6. Luis corrige y actualiza el mismo PR
+
+## Parte 4. Sincronizar con el profesor
+
+Agregar el repositorio del profesor como `upstream`:
+
+```bash
+git remote add upstream https://github.com/PROFESOR/REPOSITORIO.git
 git fetch upstream
 git switch main
 git merge upstream/main
@@ -51,15 +73,16 @@ git push origin main
 
 ## 🎯 Resultado esperado
 
-- Pull Request actualizado correctamente después de revisión
-- comprensión clara del flujo con forks
-- cada colaborador trabajando desde su propio workspace sin modificar directamente el repositorio principal
+- el repositorio del profesor no recibe cambios de los estudiantes
+- la solución del equipo vive en el fork elegido por Ana y Luis
+- ambos trabajan desde workspaces diferentes
+- ambos usan ramas separadas
+- ambos practican revisión mediante Pull Requests
 
 ## Qué se evalúa
 
-- si entendiste el comentario
-- si el cambio responde a la observación
-- si mantuviste el mismo PR
-- si el flujo de colaboración fue ordenado
-- si entendiste la diferencia entre `origin` y `upstream`
-- si sabes explicar cómo dos personas colaboran desde forks distintos
+- si entendiste la diferencia entre repositorio base del profesor y repositorio del equipo
+- si el equipo definió correctamente un fork compartido para trabajar
+- si cada integrante trabajó en una rama propia
+- si hubo revisión cruzada entre ambos
+- si saben explicar para qué sirven `origin` y `upstream`
