@@ -168,3 +168,16 @@ Aprender Git implica equivocarse. Los errores no son señal de fracaso; son part
 - pedir ayuda con evidencia clara cuando sea necesario
 
 Si Git muestra un error en rojo, no asumas que todo se dañó. Normalmente Git está diciendo exactamente qué problema encontró y, muchas veces, también sugiere cómo corregirlo.
+
+## 📚 Bibliografía adicional
+
+Para profundizar después del curso, estas son referencias recomendadas:
+
+- Chacon, Scott, y Ben Straub. *Pro Git*. Apress. Libro de referencia muy completo sobre Git, disponible gratuitamente en línea: https://git-scm.com/book/es/v2
+- Sitio oficial de Git. Documentación, descargas y libro oficial: https://git-scm.com/
+- Documentación de referencia de Git. Útil para consultar comandos específicos: https://git-scm.com/docs
+- Documentación oficial de GitHub. Guías prácticas sobre repositorios, ramas, Pull Requests y colaboración: https://docs.github.com/es
+- GitHub Skills. Ejercicios guiados para practicar GitHub con repositorios interactivos: https://skills.github.com/
+- Documentación de GitHub Codespaces. Referencia para entornos de desarrollo en la nube: https://docs.github.com/es/codespaces
+- Atlassian Git Tutorials. Material complementario con explicaciones visuales sobre ramas, merge y flujos de trabajo: https://www.atlassian.com/git/tutorials
+- Software Carpentry, *Version Control with Git*. Recurso didáctico muy útil para enseñanza y aprendizaje paso a paso: https://swcarpentry.github.io/git-novice/
