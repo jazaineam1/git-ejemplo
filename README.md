@@ -122,7 +122,7 @@ Aprenderás a entregar cambios como se hace en equipos reales y a documentar bie
 
 ### Módulo 5. Colaboración
 
-Practicarás revisión de código, comentarios en PR y mejoras iterativas.
+Practicarás revisión de código, comentarios en PR, trabajo con `fork`, sincronización y mejoras iterativas.
 
 ### Módulo 6. Conflictos
 
@@ -142,6 +142,7 @@ Se evaluará:
 - claridad de commits
 - uso de ramas
 - calidad del Pull Request
+- comprensión del flujo con `fork`
 - capacidad de iterar después de una revisión
 - orden y criterio al resolver conflictos
 
