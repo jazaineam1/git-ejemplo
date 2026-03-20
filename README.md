@@ -104,6 +104,10 @@ git push origin feature/xxx
 
 ## 🧭 Ruta del curso
 
+### Módulo 0. Onboarding
+
+Aprenderás cómo entrar al repositorio de la clase, abrir Codespaces y configurar Git para evitar los errores más comunes del primer día.
+
 ### Módulo 1. Fundamentos
 
 Aprenderás qué es Git, qué problema resuelve y cómo guardar cambios correctamente.
@@ -131,6 +135,25 @@ Entenderás por qué ocurren los conflictos y cómo resolverlos sin pánico.
 ### Proyecto final
 
 Aplicarás el flujo completo: rama, cambios, commits, push, PR y revisión.
+
+## 🗂 Mapa de contenidos
+
+- `modulo-0-onboarding/README.md` Introducción operativa para arrancar el curso
+- `modulo-1-basico/README.md` Fundamentos de Git
+- `modulo-2-commits/README.md` Commits profesionales
+- `modulo-3-ramas/README.md` Trabajo por ramas
+- `modulo-4-pr/README.md` Pull Requests
+- `modulo-5-colaboracion/README.md` Colaboración entre forks
+- `modulo-6-conflictos/README.md` Resolución de conflictos
+- `proyecto-final/README.md` Cierre integrador del curso
+
+## 🧪 Navegación por módulo
+
+Cada módulo usa el mismo patrón:
+
+- `README.md` explicación teórica y contexto
+- `ejercicio.md` actividad guiada
+- `solucion.md` propuesta de resolución
 
 ## 📦 Entregas y evaluación
 
