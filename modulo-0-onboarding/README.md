@@ -53,6 +53,45 @@ git config --global --get user.name
 git config --global --get user.email
 ```
 
+### 4.5. 🔐 Conectar a GitHub con SSH (Importante)
+
+Para hacer push y pull sin escribir contraseña, necesitas una clave SSH.
+
+#### Generar clave SSH:
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "tu-correo@ejemplo.com"
+```
+
+Presiona `Enter` tres veces (sin agregar passphrase es más simple para empezar).
+
+#### Ver tu clave pública:
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+**Copia TODA la salida** (empieza con `ssh-rsa` y termina con tu correo).
+
+#### Agregar clave a GitHub:
+
+1. Ve a: https://github.com/settings/keys
+2. Click en **"New SSH key"**
+3. Título: `Mi computadora` o `Docker Git`
+4. Pega tu clave pública en el campo **Key**
+5. Click en **"Add SSH key"**
+
+#### Verificar que funcionó:
+
+```bash
+ssh -T git@github.com
+```
+
+Deberías ver algo como:
+```
+Hi jazaineam1! You've successfully authenticated...
+```
+
 ### 5. Revisar estado del repositorio
 
 ```bash
@@ -84,6 +123,31 @@ Solución: moverse a la carpeta del repositorio correcto.
 Causa: no se creó rama antes de trabajar.
 
 Solución: crear rama de trabajo antes de editar archivos.
+
+### Error: "Permission denied (publickey)" en push
+
+Causa: SSH no está configurado o no está agregada en GitHub.
+
+Solución:
+
+```bash
+# Crear clave SSH si no la tienes
+ssh-keygen -t rsa -b 4096 -C "tu-correo@ejemplo.com"
+
+# Ver tu clave pública
+cat ~/.ssh/id_rsa.pub
+
+# Agregar en https://github.com/settings/keys
+
+# Verificar conexión
+ssh -T git@github.com
+```
+
+### Error: "Key is invalid. You must supply a key in OpenSSH public key format"
+
+Causa: copiaste solo parte de la clave o formato incorrecto.
+
+Solución: copia TODA la salida de `cat ~/.ssh/id_rsa.pub` (desde `ssh-rsa` hasta el correo).
 
 ## 🧠 Resultado esperado del módulo
 
