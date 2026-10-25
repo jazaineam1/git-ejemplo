@@ -3362,6 +3362,72 @@
       "method": "site_search",
       "catalog_status": "PENDIENTE_VALIDACION",
       "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-pcware-com-co",
+      "name": "PC Ware",
+      "domain": "pcware.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "type": "retailer",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-professionalwireless-com-co",
+      "name": "Professional Wireless",
+      "domain": "professionalwireless.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "type": "retailer",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-lowpi-com",
+      "name": "Lowpi Colombia",
+      "domain": "lowpi.com",
+      "country": "CO",
+      "region": "Colombia",
+      "type": "comparison",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-homecenter-com-co",
+      "name": "Homecenter",
+      "domain": "homecenter.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "type": "retailer",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-alkomprar-com",
+      "name": "Alkomprar",
+      "domain": "alkomprar.com",
+      "country": "CO",
+      "region": "Colombia",
+      "type": "retailer",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-encarguelo-com",
+      "name": "Encarguelo",
+      "domain": "encarguelo.com",
+      "country": "CO",
+      "region": "Colombia",
+      "type": "retailer",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
     }
   ]
 }
