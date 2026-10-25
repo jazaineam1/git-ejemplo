@@ -1,0 +1,63 @@
+name: PC Price Radar - validar y actualizar
+on:
+  workflow_dispatch:
+    inputs:
+      search_queries:
+        description: "Consultas con punto y coma entre ellas (opcional)"
+        type: string
+        required: false
+  schedule:
+    - cron: '0 5,17 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: pc-price-radar-updates
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prevalidar dos veces
+        working-directory: pc-price-radar
+        run: |
+          python -m unittest discover -s tests -v
+          python -m json.tool catalog.json > /dev/null
+          python -m unittest discover -s tests -v
+          python -m json.tool offers.json > /dev/null
+      - name: Estado HTTP de los dominios candidatos
+        working-directory: pc-price-radar
+        run: python scripts/verify_sources.py --limit 400 --workers 8
+      - name: Consultar precios (solo API autorizada y con clave)
+        working-directory: pc-price-radar
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          PC_RADAR_QUERIES: ${{ inputs.search_queries }}
+          PC_RADAR_MAX_QUERIES: '4'
+        run: |
+          if [ -z "$SERPAPI_KEY" ]; then
+            echo "Sin SERPAPI_KEY: conserva offers.json sin datos ficticios."
+          else
+            python scripts/collect_offers.py || echo "::warning::Proveedor sin datos; se conserva offers.json anterior."
+          fi
+      - name: Validación final
+        working-directory: pc-price-radar
+        run: |
+          python -m unittest discover -s tests -v
+          python -m json.tool sources-status.json > /dev/null
+          python -m json.tool offers.json > /dev/null
+      - name: Publicar JSON validados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pc-price-radar/offers.json pc-price-radar/sources-status.json
+          if ! git diff --staged --quiet; then
+            git commit -m "data(price-radar): refresh source checks and authorized offers [skip ci]"
+            git push
+          else
+            echo "No hay diferencias."
+          fi
