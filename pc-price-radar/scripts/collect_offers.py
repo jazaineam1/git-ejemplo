@@ -71,7 +71,7 @@ def as_offer(item: dict, checked_at: str) -> dict | None:
     return {
         "id": "serpapi-" + re.sub(r"[^A-Za-z0-9]", "-", pid or (url + title))[:90],
         "title": title[:170], "seller": source_name[:90], "url": url,
-        "currency": "COP", "price": val, "discount": discount, "coupon": 0,
+        "currency": "COP", "price": old if discount else val, "discount": discount, "coupon": 0,
         "shipping": None, "taxes": None, "fx": 1,
         "condition": "new", "checked_at": checked_at,
         "verified": False, "source": "api",
