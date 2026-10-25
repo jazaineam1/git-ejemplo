@@ -73,7 +73,7 @@ def as_offer(item: dict, checked_at: str) -> dict | None:
         "title": title[:170], "seller": source_name[:90], "url": url,
         "currency": "COP", "price": old if discount else val, "discount": discount, "coupon": 0,
         "shipping": None, "taxes": None, "fx": 1,
-        "condition": "new", "checked_at": checked_at,
+        "condition": "unknown", "checked_at": checked_at,
         "verified": False, "source": "api",
         "notes": "Precio de agregador GL=CO, moneda COP inferida por magnitud; confirmar moneda, variante, stock, estado, cupón, garantías y envío.",
         "currency_confidence": "inferred_not_verified",
