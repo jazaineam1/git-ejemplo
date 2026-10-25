@@ -1,17 +1,17 @@
-name: PC Price Radar - validar y actualizar
+name: PC Price Radar - verificar fuentes, actualizar precios e historial
 on:
   workflow_dispatch:
     inputs:
       search_queries:
-        description: "Consultas con punto y coma entre ellas (opcional)"
-        type: string
+        description: "Consultas separadas por punto y coma (opcional)"
         required: false
+        type: string
   schedule:
     - cron: '0 5,17 * * *'
 permissions:
   contents: write
 concurrency:
-  group: pc-price-radar-updates
+  group: pc-price-radar-data
   cancel-in-progress: false
 jobs:
   update:
@@ -22,42 +22,55 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Prevalidar dos veces
+      - name: Primera validación de datos, funciones y ofertas
         working-directory: pc-price-radar
         run: |
+          set -e
           python -m unittest discover -s tests -v
           python -m json.tool catalog.json > /dev/null
-          python -m unittest discover -s tests -v
           python -m json.tool offers.json > /dev/null
-      - name: Estado HTTP de los dominios candidatos
+          python -m json.tool price-history.json > /dev/null
+          python -m json.tool deals.json > /dev/null
+      - name: Segunda validación previa (sin llamadas de red)
+        working-directory: pc-price-radar
+        run: |
+          set -e
+          python -m unittest discover -s tests -v
+          python -m py_compile scripts/collect_offers.py scripts/verify_sources.py scripts/update_history.py
+      - name: Comprobar estado HTTPS de 342 dominios (NO valida ofertas)
         working-directory: pc-price-radar
         run: python scripts/verify_sources.py --limit 400 --workers 8
-      - name: Consultar precios (solo API autorizada y con clave)
+      - name: Consultar ofertas mediante API autorizada si está configurada
         working-directory: pc-price-radar
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           PC_RADAR_QUERIES: ${{ inputs.search_queries }}
           PC_RADAR_MAX_QUERIES: '4'
+        shell: bash
         run: |
           if [ -z "$SERPAPI_KEY" ]; then
-            echo "Sin SERPAPI_KEY: conserva offers.json sin datos ficticios."
+            echo "::notice::Sin SERPAPI_KEY: se omiten precios externos, no se inventan resultados."
           else
-            python scripts/collect_offers.py || echo "::warning::Proveedor sin datos; se conserva offers.json anterior."
+            python scripts/collect_offers.py || echo "::warning::Proveedor sin datos. Se conserva el último archivo válido."
           fi
-      - name: Validación final
+      - name: Actualizar historial y oportunidades solo a partir de datos observados
+        working-directory: pc-price-radar
+        run: python scripts/update_history.py
+      - name: Validación final estricta
         working-directory: pc-price-radar
         run: |
+          set -e
           python -m unittest discover -s tests -v
-          python -m json.tool sources-status.json > /dev/null
-          python -m json.tool offers.json > /dev/null
-      - name: Publicar JSON validados
+          for f in catalog.json offers.json sources-status.json price-history.json deals.json; do
+            python -m json.tool "$f" > /dev/null
+          done
+      - name: Guardar resultados validados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pc-price-radar/offers.json pc-price-radar/sources-status.json
-          if ! git diff --staged --quiet; then
-            git commit -m "data(price-radar): refresh source checks and authorized offers [skip ci]"
+          git add pc-price-radar/offers.json pc-price-radar/sources-status.json pc-price-radar/price-history.json pc-price-radar/deals.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(price-radar): refresh verified observations [skip ci]"
+            git pull --rebase origin main
             git push
-          else
-            echo "No hay diferencias."
           fi
