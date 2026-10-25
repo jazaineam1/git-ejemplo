@@ -1,0 +1,3367 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-25",
+  "description": "Directorio de dominios candidatos. No afirma accesibilidad ni stock verificados. Solo búsquedas site:domain, no scraping de comercios.",
+  "sources": [
+    {
+      "id": "CO-alkosto-com",
+      "name": "Alkosto",
+      "domain": "alkosto.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-ktronix-com",
+      "name": "Ktronix",
+      "domain": "ktronix.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-falabella-com-co",
+      "name": "Falabella Colombia",
+      "domain": "falabella.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-exito-com",
+      "name": "Éxito",
+      "domain": "exito.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-jumbo-com-co",
+      "name": "Jumbo Colombia",
+      "domain": "jumbo.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-carulla-com",
+      "name": "Carulla",
+      "domain": "carulla.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-mercadolibre-com-co",
+      "name": "Mercado Libre Colombia",
+      "domain": "mercadolibre.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-panamericana-com-co",
+      "name": "Panamericana",
+      "domain": "panamericana.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-officedepot-com-co",
+      "name": "Office Depot Colombia",
+      "domain": "officedepot.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-compumax-com-co",
+      "name": "Compumax",
+      "domain": "compumax.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-tauretcomputadores-com",
+      "name": "Tauret Computadores",
+      "domain": "tauretcomputadores.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-speedlogic-com-co",
+      "name": "Speedlogic",
+      "domain": "speedlogic.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-clonesyperifericos-com",
+      "name": "Clones y Periféricos",
+      "domain": "clonesyperifericos.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-gamerscolombia-com",
+      "name": "Gamers Colombia",
+      "domain": "gamerscolombia.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-mac-center-com",
+      "name": "Mac Center",
+      "domain": "mac-center.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-ishopcolombia-com",
+      "name": "iShop Colombia",
+      "domain": "ishopcolombia.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-pepeganga-com",
+      "name": "Pepe Ganga",
+      "domain": "pepeganga.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-olimpica-com",
+      "name": "Olimpica",
+      "domain": "olimpica.com",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-tecnoplaza-com-co",
+      "name": "Tecnoplaza",
+      "domain": "tecnoplaza.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CO-unilago-com-co",
+      "name": "Unilago",
+      "domain": "unilago.com.co",
+      "country": "CO",
+      "region": "Colombia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-amazon-com",
+      "name": "Amazon US",
+      "domain": "amazon.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-bestbuy-com",
+      "name": "Best Buy US",
+      "domain": "bestbuy.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-walmart-com",
+      "name": "Walmart US",
+      "domain": "walmart.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-target-com",
+      "name": "Target",
+      "domain": "target.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-bhphotovideo-com",
+      "name": "B&H Photo",
+      "domain": "bhphotovideo.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-adorama-com",
+      "name": "Adorama",
+      "domain": "adorama.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-newegg-com",
+      "name": "Newegg US",
+      "domain": "newegg.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-microcenter-com",
+      "name": "Micro Center",
+      "domain": "microcenter.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-costco-com",
+      "name": "Costco US",
+      "domain": "costco.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-samsclub-com",
+      "name": "Sam's Club US",
+      "domain": "samsclub.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-staples-com",
+      "name": "Staples US",
+      "domain": "staples.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-officedepot-com",
+      "name": "Office Depot US",
+      "domain": "officedepot.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-ebay-com",
+      "name": "eBay",
+      "domain": "ebay.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-backmarket-com",
+      "name": "Back Market US",
+      "domain": "backmarket.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-swappa-com",
+      "name": "Swappa",
+      "domain": "swappa.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-frame-work",
+      "name": "Framework",
+      "domain": "frame.work",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-system76-com",
+      "name": "System76",
+      "domain": "system76.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-originpc-com",
+      "name": "Origin PC",
+      "domain": "originpc.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-maingear-com",
+      "name": "Maingear",
+      "domain": "maingear.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-ibuypower-com",
+      "name": "iBUYPOWER",
+      "domain": "ibuypower.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-cyberpowerpc-com",
+      "name": "CyberPowerPC",
+      "domain": "cyberpowerpc.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-xoticpc-com",
+      "name": "Xotic PC",
+      "domain": "xoticpc.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-eluktronics-com",
+      "name": "Eluktronics",
+      "domain": "eluktronics.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-woot-com",
+      "name": "Woot!",
+      "domain": "woot.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-qvc-com",
+      "name": "QVC",
+      "domain": "qvc.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-hsn-com",
+      "name": "HSN",
+      "domain": "hsn.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-shopblt-com",
+      "name": "ShopBLT",
+      "domain": "shopblt.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-connection-com",
+      "name": "Connection",
+      "domain": "connection.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-cdw-com",
+      "name": "CDW",
+      "domain": "cdw.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-insight-com",
+      "name": "Insight",
+      "domain": "insight.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-tigerdirect-com",
+      "name": "TigerDirect",
+      "domain": "tigerdirect.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "US-provantage-com",
+      "name": "Provantage",
+      "domain": "provantage.com",
+      "country": "US",
+      "region": "Estados Unidos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-amazon-com-mx",
+      "name": "Amazon México",
+      "domain": "amazon.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-mercadolibre-com-mx",
+      "name": "Mercado Libre México",
+      "domain": "mercadolibre.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-liverpool-com-mx",
+      "name": "Liverpool",
+      "domain": "liverpool.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-elpalaciodehierro-com",
+      "name": "Palacio de Hierro",
+      "domain": "elpalaciodehierro.com",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-walmart-com-mx",
+      "name": "Walmart México",
+      "domain": "walmart.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-sams-com-mx",
+      "name": "Sam's Club México",
+      "domain": "sams.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-costco-com-mx",
+      "name": "Costco México",
+      "domain": "costco.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-cyberpuerta-mx",
+      "name": "Cyberpuerta",
+      "domain": "cyberpuerta.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-ddtech-mx",
+      "name": "DDTech",
+      "domain": "ddtech.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-pcel-com",
+      "name": "PCEL",
+      "domain": "pcel.com",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-doto-com-mx",
+      "name": "Doto",
+      "domain": "doto.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-officedepot-com-mx",
+      "name": "Office Depot México",
+      "domain": "officedepot.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-elektra-mx",
+      "name": "Elektra",
+      "domain": "elektra.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-coppel-com",
+      "name": "Coppel",
+      "domain": "coppel.com",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-sears-com-mx",
+      "name": "Sears México",
+      "domain": "sears.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-claroshop-com",
+      "name": "Claro Shop",
+      "domain": "claroshop.com",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-digitalife-com-mx",
+      "name": "Digitalife",
+      "domain": "digitalife.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-zegucom-com-mx",
+      "name": "Zegucom",
+      "domain": "zegucom.com.mx",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MX-intercompras-com",
+      "name": "Intercompras",
+      "domain": "intercompras.com",
+      "country": "MX",
+      "region": "México",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-amazon-com-br",
+      "name": "Amazon Brasil",
+      "domain": "amazon.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-mercadolivre-com-br",
+      "name": "Mercado Livre Brasil",
+      "domain": "mercadolivre.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-magazineluiza-com-br",
+      "name": "Magazine Luiza",
+      "domain": "magazineluiza.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-kabum-com-br",
+      "name": "KaBuM!",
+      "domain": "kabum.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-pichau-com-br",
+      "name": "Pichau",
+      "domain": "pichau.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-terabyteshop-com-br",
+      "name": "TerabyteShop",
+      "domain": "terabyteshop.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-casasbahia-com-br",
+      "name": "Casas Bahia",
+      "domain": "casasbahia.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-pontofrio-com-br",
+      "name": "Ponto",
+      "domain": "pontofrio.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-fastshop-com-br",
+      "name": "Fast Shop",
+      "domain": "fastshop.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-americanas-com-br",
+      "name": "Americanas",
+      "domain": "americanas.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-submarino-com-br",
+      "name": "Submarino",
+      "domain": "submarino.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-extra-com-br",
+      "name": "Extra Brasil",
+      "domain": "extra.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-nagem-com-br",
+      "name": "Nagem",
+      "domain": "nagem.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-kalunga-com-br",
+      "name": "Kalunga",
+      "domain": "kalunga.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-girafa-com-br",
+      "name": "Girafa",
+      "domain": "girafa.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BR-havan-com-br",
+      "name": "Havan",
+      "domain": "havan.com.br",
+      "country": "BR",
+      "region": "Brasil",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-falabella-com",
+      "name": "Falabella Chile",
+      "domain": "falabella.com",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-ripley-cl",
+      "name": "Ripley Chile",
+      "domain": "ripley.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-paris-cl",
+      "name": "Paris",
+      "domain": "paris.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-abc-cl",
+      "name": "ABC",
+      "domain": "abc.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-pcfactory-cl",
+      "name": "PC Factory",
+      "domain": "pcfactory.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-spdigital-cl",
+      "name": "SP Digital",
+      "domain": "spdigital.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-solotodo-cl",
+      "name": "SoloTodo",
+      "domain": "solotodo.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-hites-com",
+      "name": "Hites",
+      "domain": "hites.com",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-mercadolibre-cl",
+      "name": "Mercado Libre Chile",
+      "domain": "mercadolibre.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-lider-cl",
+      "name": "Líder",
+      "domain": "lider.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-lapolar-cl",
+      "name": "La Polar",
+      "domain": "lapolar.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-weplay-cl",
+      "name": "WePlay",
+      "domain": "weplay.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CL-reifstore-cl",
+      "name": "Reifstore",
+      "domain": "reifstore.cl",
+      "country": "CL",
+      "region": "Chile",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-falabella-com-pe",
+      "name": "Falabella Perú",
+      "domain": "falabella.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-ripley-com-pe",
+      "name": "Ripley Perú",
+      "domain": "ripley.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-hiraoka-com-pe",
+      "name": "Hiraoka",
+      "domain": "hiraoka.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-coolbox-pe",
+      "name": "Coolbox",
+      "domain": "coolbox.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-memorykings-pe",
+      "name": "Memory Kings",
+      "domain": "memorykings.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-impacto-com-pe",
+      "name": "Impacto",
+      "domain": "impacto.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-sercoplus-com",
+      "name": "Sercoplus",
+      "domain": "sercoplus.com",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-mercadolibre-com-pe",
+      "name": "Mercado Libre Perú",
+      "domain": "mercadolibre.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-plazavea-com-pe",
+      "name": "Plaza Vea",
+      "domain": "plazavea.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-oechsle-pe",
+      "name": "Oechsle",
+      "domain": "oechsle.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-tiendaefe-com-pe",
+      "name": "Tiendas EFE",
+      "domain": "tiendaefe.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PE-tottus-com-pe",
+      "name": "Tottus",
+      "domain": "tottus.com.pe",
+      "country": "PE",
+      "region": "Perú",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-mercadolibre-com-ar",
+      "name": "Mercado Libre Argentina",
+      "domain": "mercadolibre.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-fravega-com",
+      "name": "Frávega",
+      "domain": "fravega.com",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-cetrogar-com-ar",
+      "name": "Cetrogar",
+      "domain": "cetrogar.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-musimundo-com",
+      "name": "Musimundo",
+      "domain": "musimundo.com",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-garbarino-com",
+      "name": "Garbarino",
+      "domain": "garbarino.com",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-compragamer-com",
+      "name": "Compragamer",
+      "domain": "compragamer.com",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-fullh4rd-com-ar",
+      "name": "FullH4rd",
+      "domain": "fullh4rd.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-mexx-com-ar",
+      "name": "Mexx",
+      "domain": "mexx.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-venex-com-ar",
+      "name": "Venex",
+      "domain": "venex.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-maximus-com-ar",
+      "name": "Maximus",
+      "domain": "maximus.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-hardgamers-com-ar",
+      "name": "HardGamers",
+      "domain": "hardgamers.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AR-bidcom-com-ar",
+      "name": "Bidcom",
+      "domain": "bidcom.com.ar",
+      "country": "AR",
+      "region": "Argentina",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-amazon-ca",
+      "name": "Amazon Canadá",
+      "domain": "amazon.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-bestbuy-ca",
+      "name": "Best Buy Canada",
+      "domain": "bestbuy.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-canadacomputers-com",
+      "name": "Canada Computers",
+      "domain": "canadacomputers.com",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-memoryexpress-com",
+      "name": "Memory Express",
+      "domain": "memoryexpress.com",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-staples-ca",
+      "name": "Staples Canadá",
+      "domain": "staples.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-costco-ca",
+      "name": "Costco Canadá",
+      "domain": "costco.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-newegg-ca",
+      "name": "Newegg Canadá",
+      "domain": "newegg.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-visions-ca",
+      "name": "Visions Electronics",
+      "domain": "visions.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-londondrugs-com",
+      "name": "London Drugs",
+      "domain": "londondrugs.com",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-walmart-ca",
+      "name": "Walmart Canadá",
+      "domain": "walmart.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-pc-canada-com",
+      "name": "PC Canada",
+      "domain": "pc-canada.com",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-thesource-ca",
+      "name": "The Source",
+      "domain": "thesource.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "CA-uniway-ca",
+      "name": "Uniway",
+      "domain": "uniway.ca",
+      "country": "CA",
+      "region": "Canadá",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-amazon-co-uk",
+      "name": "Amazon UK",
+      "domain": "amazon.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-currys-co-uk",
+      "name": "Currys",
+      "domain": "currys.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-argos-co-uk",
+      "name": "Argos",
+      "domain": "argos.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-johnlewis-com",
+      "name": "John Lewis",
+      "domain": "johnlewis.com",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-very-co-uk",
+      "name": "Very",
+      "domain": "very.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-laptopsdirect-co-uk",
+      "name": "Laptops Direct",
+      "domain": "laptopsdirect.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-box-co-uk",
+      "name": "Box",
+      "domain": "box.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-scan-co-uk",
+      "name": "Scan Computers",
+      "domain": "scan.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-overclockers-co-uk",
+      "name": "Overclockers UK",
+      "domain": "overclockers.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-ebuyer-com",
+      "name": "Ebuyer",
+      "domain": "ebuyer.com",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-cclonline-com",
+      "name": "CCL",
+      "domain": "cclonline.com",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-ao-com",
+      "name": "AO",
+      "domain": "ao.com",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-costco-co-uk",
+      "name": "Costco UK",
+      "domain": "costco.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-uk-webuy-com",
+      "name": "CeX UK",
+      "domain": "uk.webuy.com",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-laptopoutlet-co-uk",
+      "name": "Laptop Outlet",
+      "domain": "laptopoutlet.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-novatech-co-uk",
+      "name": "Novatech UK",
+      "domain": "novatech.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-ballicom-co-uk",
+      "name": "Ballicom",
+      "domain": "ballicom.co.uk",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "UK-lambda-tek-com",
+      "name": "LambdaTek",
+      "domain": "lambda-tek.com",
+      "country": "UK",
+      "region": "Reino Unido",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-pccomponentes-com",
+      "name": "PcComponentes",
+      "domain": "pccomponentes.com",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-mediamarkt-es",
+      "name": "MediaMarkt España",
+      "domain": "mediamarkt.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-elcorteingles-es",
+      "name": "El Corte Inglés",
+      "domain": "elcorteingles.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-fnac-es",
+      "name": "Fnac España",
+      "domain": "fnac.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-amazon-es",
+      "name": "Amazon España",
+      "domain": "amazon.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-coolmod-com",
+      "name": "Coolmod",
+      "domain": "coolmod.com",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-worten-es",
+      "name": "Worten España",
+      "domain": "worten.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-carrefour-es",
+      "name": "Carrefour España",
+      "domain": "carrefour.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-idealo-es",
+      "name": "Idealo España",
+      "domain": "idealo.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-neobyte-es",
+      "name": "Neobyte",
+      "domain": "neobyte.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-aussar-es",
+      "name": "Aussar",
+      "domain": "aussar.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-lifeinformatica-com",
+      "name": "Life Informática",
+      "domain": "lifeinformatica.com",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-game-es",
+      "name": "GAME España",
+      "domain": "game.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-infocomputer-es",
+      "name": "InfoComputer",
+      "domain": "infocomputer.es",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ES-xtremmedia-com",
+      "name": "Xtremmedia",
+      "domain": "xtremmedia.com",
+      "country": "ES",
+      "region": "España",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-amazon-de",
+      "name": "Amazon Alemania",
+      "domain": "amazon.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-notebooksbilliger-de",
+      "name": "Notebooksbilliger",
+      "domain": "notebooksbilliger.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-cyberport-de",
+      "name": "Cyberport",
+      "domain": "cyberport.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-alternate-de",
+      "name": "Alternate Alemania",
+      "domain": "alternate.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-mindfactory-de",
+      "name": "Mindfactory",
+      "domain": "mindfactory.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-computeruniverse-net",
+      "name": "Computeruniverse",
+      "domain": "computeruniverse.net",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-mediamarkt-de",
+      "name": "MediaMarkt Alemania",
+      "domain": "mediamarkt.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-saturn-de",
+      "name": "Saturn",
+      "domain": "saturn.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-idealo-de",
+      "name": "Idealo Alemania",
+      "domain": "idealo.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-galaxus-de",
+      "name": "Galaxus Alemania",
+      "domain": "galaxus.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-conrad-de",
+      "name": "Conrad Alemania",
+      "domain": "conrad.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-caseking-de",
+      "name": "Caseking",
+      "domain": "caseking.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-expert-de",
+      "name": "Expert Alemania",
+      "domain": "expert.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-notebookswieneu-de",
+      "name": "Notebooks wie neu",
+      "domain": "notebookswieneu.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-one-de",
+      "name": "ONE.de",
+      "domain": "one.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-geizhals-de",
+      "name": "Geizhals",
+      "domain": "geizhals.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-jacob-de",
+      "name": "Jacob Elektronik",
+      "domain": "jacob.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DE-future-x-de",
+      "name": "Future-X",
+      "domain": "future-x.de",
+      "country": "DE",
+      "region": "Alemania",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-amazon-fr",
+      "name": "Amazon Francia",
+      "domain": "amazon.fr",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-fnac-com",
+      "name": "Fnac Francia",
+      "domain": "fnac.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-darty-com",
+      "name": "Darty",
+      "domain": "darty.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-boulanger-com",
+      "name": "Boulanger",
+      "domain": "boulanger.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-cdiscount-com",
+      "name": "Cdiscount",
+      "domain": "cdiscount.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-rueducommerce-fr",
+      "name": "Rue du Commerce",
+      "domain": "rueducommerce.fr",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-materiel-net",
+      "name": "Materiel.net",
+      "domain": "materiel.net",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-ldlc-com",
+      "name": "LDLC",
+      "domain": "ldlc.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-topachat-com",
+      "name": "Top Achat",
+      "domain": "topachat.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-backmarket-fr",
+      "name": "Back Market Francia",
+      "domain": "backmarket.fr",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-ubaldi-com",
+      "name": "Ubaldi",
+      "domain": "ubaldi.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-carrefour-fr",
+      "name": "Carrefour Francia",
+      "domain": "carrefour.fr",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-grosbill-com",
+      "name": "Grosbill",
+      "domain": "grosbill.com",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FR-cybertek-fr",
+      "name": "Cybertek",
+      "domain": "cybertek.fr",
+      "country": "FR",
+      "region": "Francia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-amazon-it",
+      "name": "Amazon Italia",
+      "domain": "amazon.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-mediaworld-it",
+      "name": "MediaWorld",
+      "domain": "mediaworld.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-unieuro-it",
+      "name": "Unieuro",
+      "domain": "unieuro.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-eprice-it",
+      "name": "ePRICE",
+      "domain": "eprice.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-euronics-it",
+      "name": "Euronics Italia",
+      "domain": "euronics.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-comet-it",
+      "name": "Comet",
+      "domain": "comet.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-esseshop-it",
+      "name": "Esseshop",
+      "domain": "esseshop.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-bpm-power-com",
+      "name": "BPM Power",
+      "domain": "bpm-power.com",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-trovaprezzi-it",
+      "name": "Trovaprezzi",
+      "domain": "trovaprezzi.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-yeppon-it",
+      "name": "Yeppon",
+      "domain": "yeppon.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IT-monclick-it",
+      "name": "Monclick",
+      "domain": "monclick.it",
+      "country": "IT",
+      "region": "Italia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-bol-com",
+      "name": "bol",
+      "domain": "bol.com",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-coolblue-nl",
+      "name": "Coolblue Países Bajos",
+      "domain": "coolblue.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-mediamarkt-nl",
+      "name": "MediaMarkt Países Bajos",
+      "domain": "mediamarkt.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-alternate-nl",
+      "name": "Alternate Países Bajos",
+      "domain": "alternate.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-azerty-nl",
+      "name": "Azerty",
+      "domain": "azerty.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-megekko-nl",
+      "name": "Megekko",
+      "domain": "megekko.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-tweakers-net",
+      "name": "Tweakers Pricewatch",
+      "domain": "tweakers.net",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-amazon-nl",
+      "name": "Amazon Países Bajos",
+      "domain": "amazon.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-paradigit-nl",
+      "name": "Paradigit",
+      "domain": "paradigit.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NL-informatique-nl",
+      "name": "Informatique",
+      "domain": "informatique.nl",
+      "country": "NL",
+      "region": "Países Bajos",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BE-coolblue-be",
+      "name": "Coolblue Bélgica",
+      "domain": "coolblue.be",
+      "country": "BE",
+      "region": "Bélgica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BE-vandenborre-be",
+      "name": "Vanden Borre",
+      "domain": "vandenborre.be",
+      "country": "BE",
+      "region": "Bélgica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BE-krefel-be",
+      "name": "Krëfel",
+      "domain": "krefel.be",
+      "country": "BE",
+      "region": "Bélgica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BE-fnac-be",
+      "name": "Fnac Bélgica",
+      "domain": "fnac.be",
+      "country": "BE",
+      "region": "Bélgica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BE-alternate-be",
+      "name": "Alternate Bélgica",
+      "domain": "alternate.be",
+      "country": "BE",
+      "region": "Bélgica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BE-mediamarkt-be",
+      "name": "MediaMarkt Bélgica",
+      "domain": "mediamarkt.be",
+      "country": "BE",
+      "region": "Bélgica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "BE-amazon-com-be",
+      "name": "Amazon Bélgica",
+      "domain": "amazon.com.be",
+      "country": "BE",
+      "region": "Bélgica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-elgiganten-se",
+      "name": "Elgiganten Suecia",
+      "domain": "elgiganten.se",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-inet-se",
+      "name": "Inet",
+      "domain": "inet.se",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-webhallen-com",
+      "name": "Webhallen",
+      "domain": "webhallen.com",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-komplett-se",
+      "name": "Komplett Suecia",
+      "domain": "komplett.se",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-proshop-se",
+      "name": "Proshop Suecia",
+      "domain": "proshop.se",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-netonnet-se",
+      "name": "NetOnNet Suecia",
+      "domain": "netonnet.se",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-prisjakt-nu",
+      "name": "Prisjakt Suecia",
+      "domain": "prisjakt.nu",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SE-dustin-se",
+      "name": "Dustin Suecia",
+      "domain": "dustin.se",
+      "country": "SE",
+      "region": "Suecia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NO-komplett-no",
+      "name": "Komplett Noruega",
+      "domain": "komplett.no",
+      "country": "NO",
+      "region": "Noruega",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NO-elkjop-no",
+      "name": "Elkjøp",
+      "domain": "elkjop.no",
+      "country": "NO",
+      "region": "Noruega",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NO-power-no",
+      "name": "Power Noruega",
+      "domain": "power.no",
+      "country": "NO",
+      "region": "Noruega",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NO-proshop-no",
+      "name": "Proshop Noruega",
+      "domain": "proshop.no",
+      "country": "NO",
+      "region": "Noruega",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NO-netonnet-no",
+      "name": "NetOnNet Noruega",
+      "domain": "netonnet.no",
+      "country": "NO",
+      "region": "Noruega",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NO-prisjakt-no",
+      "name": "Prisjakt Noruega",
+      "domain": "prisjakt.no",
+      "country": "NO",
+      "region": "Noruega",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DK-elgiganten-dk",
+      "name": "Elgiganten Dinamarca",
+      "domain": "elgiganten.dk",
+      "country": "DK",
+      "region": "Dinamarca",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DK-proshop-dk",
+      "name": "Proshop Dinamarca",
+      "domain": "proshop.dk",
+      "country": "DK",
+      "region": "Dinamarca",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DK-komplett-dk",
+      "name": "Komplett Dinamarca",
+      "domain": "komplett.dk",
+      "country": "DK",
+      "region": "Dinamarca",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DK-power-dk",
+      "name": "Power Dinamarca",
+      "domain": "power.dk",
+      "country": "DK",
+      "region": "Dinamarca",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DK-computersalg-dk",
+      "name": "ComputerSalg",
+      "domain": "computersalg.dk",
+      "country": "DK",
+      "region": "Dinamarca",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "DK-dustin-dk",
+      "name": "Dustin Dinamarca",
+      "domain": "dustin.dk",
+      "country": "DK",
+      "region": "Dinamarca",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FI-gigantti-fi",
+      "name": "Gigantti",
+      "domain": "gigantti.fi",
+      "country": "FI",
+      "region": "Finlandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FI-verkkokauppa-com",
+      "name": "Verkkokauppa",
+      "domain": "verkkokauppa.com",
+      "country": "FI",
+      "region": "Finlandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FI-jimms-fi",
+      "name": "Jimm's",
+      "domain": "jimms.fi",
+      "country": "FI",
+      "region": "Finlandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FI-proshop-fi",
+      "name": "Proshop Finlandia",
+      "domain": "proshop.fi",
+      "country": "FI",
+      "region": "Finlandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "FI-multitronic-fi",
+      "name": "Multitronic",
+      "domain": "multitronic.fi",
+      "country": "FI",
+      "region": "Finlandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-amazon-co-jp",
+      "name": "Amazon Japón",
+      "domain": "amazon.co.jp",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-biccamera-com",
+      "name": "Bic Camera",
+      "domain": "biccamera.com",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-yodobashi-com",
+      "name": "Yodobashi Camera",
+      "domain": "yodobashi.com",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-kakaku-com",
+      "name": "Kakaku",
+      "domain": "kakaku.com",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-dospara-co-jp",
+      "name": "Dospara",
+      "domain": "dospara.co.jp",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-tsukumo-co-jp",
+      "name": "Tsukumo",
+      "domain": "tsukumo.co.jp",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-sofmap-com",
+      "name": "Sofmap",
+      "domain": "sofmap.com",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-pc-koubou-jp",
+      "name": "PC Koubou",
+      "domain": "pc-koubou.jp",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-joshinweb-jp",
+      "name": "Joshin Web",
+      "domain": "joshinweb.jp",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-edion-com",
+      "name": "Edion",
+      "domain": "edion.com",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "JP-mouse-jp-co-jp",
+      "name": "Mouse Computer",
+      "domain": "mouse-jp.co.jp",
+      "country": "JP",
+      "region": "Japón",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-amazon-in",
+      "name": "Amazon India",
+      "domain": "amazon.in",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-flipkart-com",
+      "name": "Flipkart",
+      "domain": "flipkart.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-croma-com",
+      "name": "Croma",
+      "domain": "croma.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-reliancedigital-in",
+      "name": "Reliance Digital",
+      "domain": "reliancedigital.in",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-vijaysales-com",
+      "name": "Vijay Sales",
+      "domain": "vijaysales.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-tatacliq-com",
+      "name": "Tata CLiQ",
+      "domain": "tatacliq.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-mdcomputers-in",
+      "name": "MD Computers",
+      "domain": "mdcomputers.in",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-primeabgb-com",
+      "name": "PrimeABGB",
+      "domain": "primeabgb.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-vedantcomputers-com",
+      "name": "Vedant Computers",
+      "domain": "vedantcomputers.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-theitdepot-com",
+      "name": "The IT Depot",
+      "domain": "theitdepot.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-elitehubs-com",
+      "name": "EliteHubs",
+      "domain": "elitehubs.com",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-clarioncomputers-in",
+      "name": "Clarion Computers",
+      "domain": "clarioncomputers.in",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "IN-computechstore-in",
+      "name": "Computech Store",
+      "domain": "computechstore.in",
+      "country": "IN",
+      "region": "India",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-amazon-com-au",
+      "name": "Amazon Australia",
+      "domain": "amazon.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-jbhifi-com-au",
+      "name": "JB Hi-Fi",
+      "domain": "jbhifi.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-officeworks-com-au",
+      "name": "Officeworks",
+      "domain": "officeworks.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-harveynorman-com-au",
+      "name": "Harvey Norman Australia",
+      "domain": "harveynorman.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-scorptec-com-au",
+      "name": "Scorptec",
+      "domain": "scorptec.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-pccasegear-com",
+      "name": "PC Case Gear",
+      "domain": "pccasegear.com",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-umart-com-au",
+      "name": "Umart",
+      "domain": "umart.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-mwave-com-au",
+      "name": "Mwave",
+      "domain": "mwave.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-centrecom-com-au",
+      "name": "Centre Com",
+      "domain": "centrecom.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-msy-com-au",
+      "name": "MSY",
+      "domain": "msy.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-ple-com-au",
+      "name": "PLE Computers",
+      "domain": "ple.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-kogan-com",
+      "name": "Kogan",
+      "domain": "kogan.com",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-catch-com-au",
+      "name": "Catch",
+      "domain": "catch.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-thegoodguys-com-au",
+      "name": "The Good Guys",
+      "domain": "thegoodguys.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "AU-dicksmith-com-au",
+      "name": "Dick Smith AU",
+      "domain": "dicksmith.com.au",
+      "country": "AU",
+      "region": "Australia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NZ-pbtech-co-nz",
+      "name": "PB Tech",
+      "domain": "pbtech.co.nz",
+      "country": "NZ",
+      "region": "Nueva Zelanda",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NZ-computerlounge-co-nz",
+      "name": "Computer Lounge",
+      "domain": "computerlounge.co.nz",
+      "country": "NZ",
+      "region": "Nueva Zelanda",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NZ-mightyape-co-nz",
+      "name": "Mighty Ape",
+      "domain": "mightyape.co.nz",
+      "country": "NZ",
+      "region": "Nueva Zelanda",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NZ-noelleeming-co-nz",
+      "name": "Noel Leeming",
+      "domain": "noelleeming.co.nz",
+      "country": "NZ",
+      "region": "Nueva Zelanda",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NZ-harveynorman-co-nz",
+      "name": "Harvey Norman NZ",
+      "domain": "harveynorman.co.nz",
+      "country": "NZ",
+      "region": "Nueva Zelanda",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "NZ-jbhifi-co-nz",
+      "name": "JB Hi-Fi NZ",
+      "domain": "jbhifi.co.nz",
+      "country": "NZ",
+      "region": "Nueva Zelanda",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-amazon-sg",
+      "name": "Amazon Singapur",
+      "domain": "amazon.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-lazada-sg",
+      "name": "Lazada Singapur",
+      "domain": "lazada.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-shopee-sg",
+      "name": "Shopee Singapur",
+      "domain": "shopee.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-challenger-sg",
+      "name": "Challenger",
+      "domain": "challenger.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-courts-com-sg",
+      "name": "Courts Singapur",
+      "domain": "courts.com.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-bestdenki-com-sg",
+      "name": "Best Denki Singapur",
+      "domain": "bestdenki.com.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-harveynorman-com-sg",
+      "name": "Harvey Norman Singapur",
+      "domain": "harveynorman.com.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-carousell-sg",
+      "name": "Carousell Singapur",
+      "domain": "carousell.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "SG-qoo10-sg",
+      "name": "Qoo10 Singapur",
+      "domain": "qoo10.sg",
+      "country": "SG",
+      "region": "Singapur",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MY-lazada-com-my",
+      "name": "Lazada Malasia",
+      "domain": "lazada.com.my",
+      "country": "MY",
+      "region": "Malasia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MY-shopee-com-my",
+      "name": "Shopee Malasia",
+      "domain": "shopee.com.my",
+      "country": "MY",
+      "region": "Malasia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MY-senheng-com-my",
+      "name": "Senheng",
+      "domain": "senheng.com.my",
+      "country": "MY",
+      "region": "Malasia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MY-allithypermarket-com-my",
+      "name": "ALL IT Hypermarket",
+      "domain": "allithypermarket.com.my",
+      "country": "MY",
+      "region": "Malasia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MY-viewnet-com-my",
+      "name": "Viewnet",
+      "domain": "viewnet.com.my",
+      "country": "MY",
+      "region": "Malasia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "MY-harveynorman-com-my",
+      "name": "Harvey Norman Malasia",
+      "domain": "harveynorman.com.my",
+      "country": "MY",
+      "region": "Malasia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TH-lazada-co-th",
+      "name": "Lazada Tailandia",
+      "domain": "lazada.co.th",
+      "country": "TH",
+      "region": "Tailandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TH-shopee-co-th",
+      "name": "Shopee Tailandia",
+      "domain": "shopee.co.th",
+      "country": "TH",
+      "region": "Tailandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TH-advice-co-th",
+      "name": "Advice",
+      "domain": "advice.co.th",
+      "country": "TH",
+      "region": "Tailandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TH-jib-co-th",
+      "name": "JIB Computer",
+      "domain": "jib.co.th",
+      "country": "TH",
+      "region": "Tailandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TH-bnn-in-th",
+      "name": "Banana IT",
+      "domain": "bnn.in.th",
+      "country": "TH",
+      "region": "Tailandia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ZA-takealot-com",
+      "name": "Takealot",
+      "domain": "takealot.com",
+      "country": "ZA",
+      "region": "Sudáfrica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ZA-evetech-co-za",
+      "name": "Evetech",
+      "domain": "evetech.co.za",
+      "country": "ZA",
+      "region": "Sudáfrica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ZA-wootware-co-za",
+      "name": "Wootware",
+      "domain": "wootware.co.za",
+      "country": "ZA",
+      "region": "Sudáfrica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ZA-incredible-co-za",
+      "name": "Incredible Connection",
+      "domain": "incredible.co.za",
+      "country": "ZA",
+      "region": "Sudáfrica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "ZA-makro-co-za",
+      "name": "Makro Sudáfrica",
+      "domain": "makro.co.za",
+      "country": "ZA",
+      "region": "Sudáfrica",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PL-x-kom-pl",
+      "name": "x-kom",
+      "domain": "x-kom.pl",
+      "country": "PL",
+      "region": "Polonia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PL-morele-net",
+      "name": "Morele",
+      "domain": "morele.net",
+      "country": "PL",
+      "region": "Polonia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PL-mediaexpert-pl",
+      "name": "Media Expert",
+      "domain": "mediaexpert.pl",
+      "country": "PL",
+      "region": "Polonia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PL-euro-com-pl",
+      "name": "RTV Euro AGD",
+      "domain": "euro.com.pl",
+      "country": "PL",
+      "region": "Polonia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PL-komputronik-pl",
+      "name": "Komputronik",
+      "domain": "komputronik.pl",
+      "country": "PL",
+      "region": "Polonia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "PL-allegro-pl",
+      "name": "Allegro",
+      "domain": "allegro.pl",
+      "country": "PL",
+      "region": "Polonia",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TR-trendyol-com",
+      "name": "Trendyol",
+      "domain": "trendyol.com",
+      "country": "TR",
+      "region": "Turquía",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TR-hepsiburada-com",
+      "name": "Hepsiburada",
+      "domain": "hepsiburada.com",
+      "country": "TR",
+      "region": "Turquía",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TR-vatanbilgisayar-com",
+      "name": "Vatan Bilgisayar",
+      "domain": "vatanbilgisayar.com",
+      "country": "TR",
+      "region": "Turquía",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TR-teknosa-com",
+      "name": "Teknosa",
+      "domain": "teknosa.com",
+      "country": "TR",
+      "region": "Turquía",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    },
+    {
+      "id": "TR-itopya-com",
+      "name": "Itopya",
+      "domain": "itopya.com",
+      "country": "TR",
+      "region": "Turquía",
+      "method": "site_search",
+      "catalog_status": "PENDIENTE_VALIDACION",
+      "ships_to_colombia": "NO_CONFIRMADO"
+    }
+  ]
+}
