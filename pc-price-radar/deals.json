@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "updated_at": null,
+  "min_historical_days": 3,
+  "threshold_pct": 10,
+  "disclaimer": "Sin historial suficiente aún; no se inventan promociones.",
+  "deals": []
+}
