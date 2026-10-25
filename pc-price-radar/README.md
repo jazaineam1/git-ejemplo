@@ -20,7 +20,8 @@
 - Archivo: [index.html](./index.html)
 - Para ejecutar con Python 3.11 o superior desde esta carpeta: python -m http.server 8000
 - Abrir http://localhost:8000/ (no usar file://: el navegador necesita poder cargar JSON).
-- Para habilitar un enlace público: GitHub > Settings > Pages > Deploy from a branch > main > / (root). Si Pages está habilitado y ha publicado correctamente, la URL esperada es https://jazaineam1.github.io/git-ejemplo/pc-price-radar/ . **Ese enlace aún no está comprobado como publicado.**
+- **Publicación (un único ajuste pendiente de tu cuenta):** abre https://github.com/jazaineam1/git-ejemplo/settings/pages y en Build and deployment > Source selecciona **GitHub Actions**. El repositorio ya incluye el workflow .github/workflows/pc-price-radar-pages.yml, que comprueba si Pages está activado, valida JSON y publica la app estática; si Pages no está activado, se omite sin generar error.
+- Después de activar Pages, abre https://github.com/jazaineam1/git-ejemplo/actions/workflows/pc-price-radar-pages.yml y pulsa Run workflow una vez. El enlace esperado de publicación es https://jazaineam1.github.io/git-ejemplo/pc-price-radar/ , pendiente de validación HTTP real; no se anuncia como desplegado hasta comprobarlo.
 
 ## Activar las búsquedas de precios automáticas
 
@@ -60,3 +61,26 @@ Se observaron páginas reales para portátiles en https://www.alkosto.com/comput
 ## Por completar para un comparador comercial competitivo
 
 Feeds/APIs contractuales por vendedor, más de 200 comercios con precio comprobado, búsqueda y normalización de SKU/GTIN, deduplicación, índice histórico, verificación de cupones en checkout, impuestos por destino, alertas, pruebas E2E móviles y registro de cambios. No se presentan como implementados. Los datos manuales permanecen en el navegador salvo exportación expresa.
+
+
+## Estado actualizado de la implementación
+
+| Capacidad | Estado técnico | Límite actual |
+| --- | --- | --- |
+| Interfaz de búsquedas y filtros | Implementada | Los filtros externos son consultas, no el motor nativo de 342 sitios |
+| 342 dominios en directorio | Datos catalogados | No hay 342 verificaciones de compra/entrega |
+| Auditoría HTTPS de fuentes | Script + workflow listos | Aún no ha producido un informe HTTP; HEAD no prueba negocio válido |
+| Precios automáticos | Conector SerpApi implementado | Sin SERPAPI_KEY no se obtienen precios |
+| Historial de precios | Implementado en scripts/update_history.py | No hay observaciones hasta que el conector entregue datos |
+| Oportunidades históricas | Vista y detector implementados | Exige tres fechas previas reales, baja >=10% y ahorro >=150000 COP |
+| Cupones | Búsqueda externa y validación declarada por comprador | No se verifica checkout de 342 tiendas automáticamente |
+| GitHub Pages | Workflow de publicación implementado | Falta activar Pages en configuración y comprobar URL |
+| Tests | Python unittest y Node UI smoke integrados al workflow | El job remoto no se ha ejecutado aquí; validación JS de sintaxis y cálculos verificada fuera de CI |
+
+### Cuándo se considera una oferta real
+
+Toda ficha conserva URL de comercio, fecha, precio fuente y etiqueta de verificación. Las cotizaciones sin gastos declarados indican costo parcial. Los cupones NO se descuentan hasta marcar que han sido aplicados realmente en checkout por el comprador. Las rebajas del historial se detectan contra la mediana de 3 o más días anteriores, no contra precios tachados potencialmente inflados.
+
+### Actualización del historial
+
+El job en .github/workflows/pc-price-radar.yml ejecuta pruebas dos veces antes de consultar cualquier fuente, realiza HEAD de dominios con límites, consulta la API configurada (si la hay), actualiza price-history.json y deals.json y vuelve a probar antes del commit. Corre a las 05:00 y 17:00 UTC, pero necesita GitHub Actions habilitado y conexión de red desde su runner. También admite ejecución manual. Sin proveedor configurado no crea precios ficticios.
