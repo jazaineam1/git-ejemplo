@@ -1,0 +1,12 @@
+{
+  "checked_at": null,
+  "method": "HTTPS HEAD homepage, una vez por dominio, ejecución pendiente",
+  "disclaimer": "No confirma legitimidad de la tienda, existencia de productos, precio, envío, cupones ni disponibilidad.",
+  "counts": {
+    "responded": 0,
+    "restricted_or_head_unsupported": 0,
+    "error_response": 0,
+    "unconfirmed": 0
+  },
+  "results": []
+}
